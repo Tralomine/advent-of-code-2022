@@ -122,10 +122,10 @@ fn main() {
     println!("\tchall 1: {}", day18::chall_1(&input_18));
     println!("\tchall 2: {}", day18::chall_2(&input_18));
 
-    let input_19 = fs::read_to_string("input/day19.input").expect("can't read file 19");
-    println!("day 19 challenges :");
-    println!("\tchall 1: {}", day19::chall_1(&input_19));
-    println!("\tchall 2: {}", day19::chall_2(&input_19));
+    // let input_19 = fs::read_to_string("input/day19.input").expect("can't read file 19");
+    // println!("day 19 challenges :");
+    // println!("\tchall 1: {}", day19::chall_1(&input_19));
+    // println!("\tchall 2: {}", day19::chall_2(&input_19));
 
     let input_20 = fs::read_to_string("input/day20.input").expect("can't read file 20");
     println!("day 20 challenges :");
@@ -147,12 +147,10 @@ fn main() {
     println!("\tchall 1: {}", day23::chall_1(&input_23));
     println!("\tchall 2: {}", day23::chall_2(&input_23));
 
-
     let input_24 = fs::read_to_string("input/day24.input").expect("can't read file 24");
     println!("day 24 challenges :");
     println!("\tchall 1: {}", day24::chall_1(&input_24));
     println!("\tchall 2: {}", day24::chall_2(&input_24));
-
 
     let input_25 = fs::read_to_string("input/day25.input").expect("can't read file 25");
     println!("day 25 challenges :");
